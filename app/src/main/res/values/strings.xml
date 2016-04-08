@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Points Of Interest</string>
+    <string name="action_settings">Settings</string>
+    <string name="locate_me_button">LOCATE ME</string>
+    <string name="mark_favorite_checkbox">Mark as Favorite</string>
+    <string name="add_favr">Success, Added to Favorite</string>
+    <string name="remove_favr">Success, Removed From Favorite</string>
+    <string name="gps_network_not_enabled">GPS network not enabled</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="hint_settings">
+        Click LOCATE  ME button to get places around you, then mark favorite places to be POI by Click its list item.
+    </string>
+</resources>

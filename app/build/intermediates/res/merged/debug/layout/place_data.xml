@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+        <ImageView
+            android:id="@+id/placeImage"
+            android:contentDescription="@string/app_name"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/placeImage"
+        android:layout_marginLeft="75dip"
+        android:paddingBottom ="10dip"
+        android:text="Name"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/placeAddress"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeName"
+        android:layout_alignLeft="@+id/placeName"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:text="Address"
+        android:textColor="#343434"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        android:id="@+id/checkBox"
+        android:layout_alignTop="@+id/placeAddress"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+</RelativeLayout> 
